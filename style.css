@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv {
+    border-radius: 50%;
+    background-color: #eb011c;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.maindiv::after {
+    content: "";
+    position: absolute;
+    background-color: #f79e1c;
+    border-radius: 50%;
+    opacity: 0.7;
+    width: 200px;
+    height: 200px;
+    left: 110px;
+}
